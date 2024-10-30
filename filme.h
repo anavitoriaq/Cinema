@@ -1,3 +1,6 @@
+#ifndef FILME_H
+#define FILME_H
+
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
@@ -36,3 +39,5 @@ void exibirFilmes(Filme* lista);
 void excluirFilme(Filme** lista, int id);
 
 void editarFilme(Filme* lista, int id);
+
+#endif
